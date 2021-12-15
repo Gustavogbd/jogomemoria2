@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(54, 189, 189);
+}
+
+.memory-game {
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: calc(33.333% - 10px);
+    width: calc(25% - 10px);
+    margin: 5px;
+}
